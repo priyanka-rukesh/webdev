@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg{
+    @apply bg-red-400 sm:bg-red-200 md:bg-green-300 lg:bg-orange-500 xl:bg-yellow-500
+}
+
+.div1{
+     @apply font-sans font-bold mx-4
+}
